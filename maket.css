@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 65px;
+  position: relative;
+  background-color: darkgray;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  height: 65px;
+  background-color: #003366;
+}
+
+.cont {
+  width: 49.9%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #003366;
+  height: 65px;
+  margin-left: 0.1%;
+}
+.contacts {
+  width: 24.7%;
+  float: left;
+  height: 65px;
+  background-color: #003366;
+  margin-left: 0.1%;
+  padding: 13px;
+}
+
+.shop {
+  width: 5%;
+  float: left;
+  margin-left: 0.1%;
+  background-color: #003366;
+  height: 65px;
+}
+.search {
+  width: 5%;
+  float: left;
+  margin-left: 0.1%;
+  background-color: #003366;
+  height: 65px;
+}
+
+.logo a {
+  width: 100%;
+  height: 65px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.img_logo {
+  width: 100px;
+  height: 80px;
+}
+
+.cont p {
+  display: inline;
+  padding: 15px;
+  text-align: center;
+}
+
+.cont a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.contacts a {
+  padding: 27px;
+  border-top-left-radius: 33%;
+  border-top-right-radius: 33%;
+}
+
+.shop img {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.search img {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.back_img img {
+  height: 700px;
+  width: 100%;
+  position: absolute;
+}
+
+.none {
+  width: 50%;
+  float: left;
+}
+
+.text {
+  width: 50%;
+  float: left;
+
+  position: relative;
+  height: 100px;
+}
+
+.txt {
+  width: 490px;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.txt h1 {
+  color: white;
+  font-size: 130px;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: Impact, fantasy;
+}
+.txt h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: Bradley Hand, cursive;
+}
+.txt a {
+  text-decoration: none;
+}
+
+.txt p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 23px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: #002680;
+  margin-left: 162px;
+  transition: 1s;
+}
+
+.txt p:hover {
+  background-color: #195eff;
+}
+
+.absolute {
+  width: 100%;
+  height: 630px;
+}
+
+.main_div {
+  width: 80%;
+  position: relative;
+  height: 250px;
+  border: 0px solid red;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  border: 0px solid blue;
+  border-bottom: 0px solid grey;
+}
+
+.one {
+  width: 25%;
+
+  float: left;
+  border: 0px solid red;
+  height: 250px;
+  border: 0px solid blue;
+}
+
+.in_one {
+  border: 0px solid red;
+  position: relative; /* Относительное позиционирование */
+  width: 305px;
+  height: 250px; /* Ширина и высота */
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  border-right: 0px solid grey;
+  padding-left: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.in_one:hover {
+  transform: rotateY(180deg); /* При наведении вращаем */
+}
+
+.front {
+  padding-top: 22%;
+  padding-left: 22%;
+  position: absolute; /* Абсолютное позиционирование */
+  top: 0;
+  bottom: 0; /* Задаём так высоту */
+  backface-visibility: hidden;
+}
+
+.back {
+  padding: 15px;
+  font: 18px/1.6 Arial; /* Параметры шрифта */
+  text-align: center;
+  transform: rotateY(180deg); /* Поворачиваем текст */
+  background: white; /* Цвет фона */
+  color: black; /* Цвет текста */
+  backface-visibility: hidden;
+}
+
+.basked {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 602px;
+
+  border: 0px solid red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.basked_txt {
+  width: 50%;
+  height: px;
+  border: 0px solid red;
+  float: left;
+  height: 600px;
+}
+
+.basked_img {
+  width: 50%;
+  height: px;
+  border: px solid red;
+  float: left;
+  height: 600px;
+}
+
+.in_txt_basked {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  font-family: FreeMono, monospace;
+}
+
+.in_txt_basked span {
+  letter-spacing: 2px;
+}
+
+.in_txt_basked h1 {
+  font-size: 38px;
+  letter-spacing: -2px;
+}
+
+.in_txt_basked h2 {
+  font-size: 15px;
+  color: grey;
+}
+
+.in_txt_basked h3,
+h4 {
+  display: inline;
+  padding: 15px;
+}
+
+.in_txt_basked h3 {
+  font-size: 35px;
+  color: darkblue;
+}
+
+.in_txt_basked a {
+  text-decoration: none;
+}
+
+.in_txt_basked p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 23px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: #002680;
+  margin-left: 162px;
+  transition: 1s;
+}
+
+.in_txt_basked p:hover {
+  background-color: #195eff;
+}
+
+.crosi {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 480px;
+  position: relative;
+}
+
+.conteiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transform-style: preserve-3d;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.conteiner .box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 40px;
+  border-radius: 20px;
+  background: #232323;
+  transform-style: preserve-3d;
+}
+
+.conteiner .box::before {
+  content: "NIKE";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 6em;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+.conteiner .box::after {
+  content: "SHOES";
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 5em;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.conteiner .box:hover::before,
+.conteiner .box:hover::after {
+  opacity: 0.04;
+}
+
+.conteiner .box .name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 75px);
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+
+.conteiner .box:hover .name {
+  top: 40px;
+  opacity: 1;
+}
+
+.conteiner .box .buy {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%, 0, 75px);
+  color: #fff;
+  background: #333;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.conteiner .box:hover .buy {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.conteiner .box .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 0.5s;
+  background: #fff;
+  transform-style: preserve-3d;
+  z-index: 10;
+  opacity: 1;
+  transform: translate3d(-50%, -50%, 50px);
+}
+
+.conteiner .box .product {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 300px;
+  transition: 0.5s;
+  z-index: 11;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%, -50%, 50px) rotate(-15deg);
+}
+
+.conteiner .box:hover .product {
+  transform: translate3d(-50%, -50%, 100px) rotate(-15deg);
+}
+
+.conteiner .box:nth-child(1) .circle,
+.conteiner .box:nth-child(1) .buy {
+  background-color: #379bf7;
+}
+.conteiner .box:nth-child(2) .circle,
+.conteiner .box:nth-child(2) .buy {
+  background-color: #9bdc28;
+}
+.conteiner .box:nth-child(3) .circle,
+.conteiner .box:nth-child(3) .buy {
+  background-color: #fb4b4f;
+}
+
+
+.photo{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 495px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+
+
+
+
+.brands{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  
+}
+
+.box_brand{
+  width: 16.666%;
+  height: 150px; 
+  float: left;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  
+}
+
+.in_box_brand{
+  width: 150px;
+  margin-left: 15%;
+  margin-top: 15%;
+  
+}
+
+.footer{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  
+  background-color: #202020;
+}
+
+.color{
+  width: 80%;
+  height: 500px;
+  float: left;
+  margin-right: 10%;
+  margin-left: 10%;
+  
+}
+
+.absolute2{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  
+  margin-top: 70px;
+}
+
+.abso1{
+  width: 10%;
+  height: 80px;
+  float: left;
+  background-color:#202020;
+  
+}
+.abso2{
+  width: 80%;
+  height: 80px;
+  float: left;
+  
+  
+}
+.abso3{
+  width: 10%;
+  height: 80px;
+  float: left;
+  background-color: #202020;
+}
+
+.foot_text1{
+  width: 20%;
+  height: 400px;
+  float: left;
+  
+}
+.foot_text2{
+  width: 25%;
+  height: 400px;
+  float: left;
+  
+}
+.foot_text3{
+  width: 20%;
+  height: 400px;
+  float: left;
+  
+}
+.foot_text4{
+  width: 35%;
+  height: 400px;
+  float: left;
+  
+}
+
+.info h2{
+  font-size: 18px;
+  color: rgb(58, 77, 248);
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  padding-top: 30px ;
+}
+
+.info p{
+  font-size: 14px;
+  color: rgb(243, 235, 235);
+  font-weight: bold;
+  font-family: Andale Mono, monospace;
+}
+
+.info1{
+  width: 100%;
+  height: 200px;
+  
+}
+
+.up{
+  width: 400px;
+  height: 190px;
+  
+}
+.up img{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.up h1{
+  font-size: 18px;
+  color: rgb(58, 77, 248);
+  margin-left: 40px;
+  padding-top: 30px ;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+}
+
+
+.info1 INPut{
+  width: 300px;
+  border-radius: 50px;
+  background-color: grey;
+  margin-left: 40px;
+}
+
+.info1 h1{
+  font-size: 18px;
+  color: rgb(58, 77, 248);
+  margin-left: 40px;
+  padding-top: 30px ;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+}
+
+.info1 a {
+  text-decoration: none;
+}
+
+.info1 p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 23px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: #002680;
+  margin-left: 40px;
+  transition: 1s;
+}
+.info1 p:hover {
+  background-color: #195eff;
+}
+
+
