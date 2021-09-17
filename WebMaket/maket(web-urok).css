@@ -1,0 +1,509 @@
+body{
+	margin: 0;
+	padding: 0;
+	zoom: 110%;
+
+}
+
+
+body::-webkit-scrollbar {
+  width: 9px;               
+}
+body::-webkit-scrollbar-track {
+  background: grey;        
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #83B81A;   
+  border-radius: 20px;       
+  border: 3px solid #83B81A;  
+}
+
+.big_img{
+	width: 100%;
+	height: 695px;
+	
+	
+	}
+
+.header{
+	width: 100%;
+	height: 70px;
+	border: px solid ;
+	position: relative;
+}
+
+.fir-img{
+
+	width: 100%;
+	height: 695px;
+	position: absolute;
+}
+.logo{
+	width: 20%;
+	height: 70px;
+	color: white;
+	position: relative;
+	float: left;
+	border: px solid ;
+}
+
+.header-center{
+	width: 45%;
+	height: 70px;
+	float: left;
+	color: white;
+	position: relative;
+	border: px solid ;
+}
+
+.header-right{
+	width: 34%;
+	height: 70px;
+	float: left;
+	color: white;
+	position: relative;
+	border: px solid ;
+}
+
+.logo img {
+	width: 100px ;
+	height: 70px;
+	margin-left: 30px;
+}
+
+
+
+
+
+
+
+.header-center p{
+	display: inline;
+	font-size: 21px;
+	font-family:"Trebuchet MS", sans-serif;
+	color: antiquewhite ;
+	padding-left: 50px;
+}
+
+.header-center a{
+	text-decoration: none;
+}
+
+
+
+.dropbtn {
+	margin-top: 10px;
+    background-color: transparent;
+    color: antiquewhite ;
+    padding: 16px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:"Trebuchet MS", sans-serif;
+    border: none;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+	
+    display: none;
+    position: absolute;
+    background-color: grey;
+    font-family:"Trebuchet MS", sans-serif;
+    width: 230px;
+    z-index: 1;
+    background: transparent;
+    border: 5px solid #83B81A;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+.content-text{
+	width: 45%;
+	height: 625px;
+	float: left;
+	position: relative;
+}
+
+.c-img{
+	width: 55%;
+	height: 625px;
+	float: left;
+	position: relative;
+
+}
+
+.content-text h1{
+	font-size: 130px;
+	font-family:"Trebuchet MS", sans-serif ;
+	margin: 0px 0px 0px 50px;
+	color: antiquewhite;
+	opacity: 0.9;
+
+}
+
+.content-text h2{
+	font-size: 54px;
+	font-family:"Trebuchet MS", sans-serif ;
+	margin: 0px 0px 0px 50px;
+	color: #83B81A;
+	opacity: 0.8;
+}
+
+.content-text h3{
+	margin: 80px 0px 0px 50px;
+	font-size: 90px;
+	font-family:"Trebuchet MS", sans-serif ;
+	color: antiquewhite;
+	opacity: 0.8;
+}
+
+
+
+
+
+.cont-img{
+	position: relative;
+	margin: 50px 0px 0px 0px;
+	transition: 1s ;
+	float: left;
+	
+ 
+}
+ .cont-img:hover{
+	transform: scale(1.1,1.1);
+}
+
+.sponsor{
+	background-color: #202020;
+	width: 100%;
+	height: 70px;
+	position: relative;
+}
+
+
+
+.crosi {
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 0%;
+  height: 480px;
+  position: relative;
+  background-color: #202020;
+}
+
+.conteiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transform-style: preserve-3d;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.conteiner .box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 40px;
+  border-radius: 20px;
+  background: #232323;
+  transform-style: preserve-3d;
+}
+
+.conteiner .box::before {
+  content: "Acer";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 6em;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+.conteiner .box::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 5em;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.conteiner .box:hover::before,
+.conteiner .box:hover::after {
+  opacity: 0.04;
+}
+
+.conteiner .box .name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 75px);
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+
+.conteiner .box:hover .name {
+  top: 40px;
+  opacity: 1;
+}
+
+.conteiner .box .buy {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%, 0, 75px);
+  color: #fff;
+  background: #333;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.conteiner .box:hover .buy {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.conteiner .box .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 0.5s;
+  background: #fff;
+  transform-style: preserve-3d;
+  z-index: 10;
+  opacity: 1;
+  transform: translate3d(-50%, -50%, 50px);
+}
+
+.conteiner .box .product {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 300px;
+  transition: 0.5s;
+  z-index: 11;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%, -50%, 50px) ;
+}
+
+.conteiner .box:hover .product {
+  transform: translate3d(-50%, -50%, 100px) rotate(3deg);
+}
+
+.conteiner .box:nth-child(1) .circle,
+.conteiner .box:nth-child(1) .buy {
+  background-color: #83B81A;
+}
+.conteiner .box:nth-child(2) .circle,
+.conteiner .box:nth-child(2) .buy {
+  background-color: #9bdc28;
+}
+.conteiner .box:nth-child(3) .circle,
+.conteiner .box:nth-child(3) .buy {
+  background-color: #83B81A;
+}
+
+.up {
+	width: 70%;
+	margin: 0px 15% 0px 15%;
+}
+
+.up img{
+	margin: 10px 0px 0px 100px ;
+}
+
+.monic{
+	width: 100%;
+	height: 680px;
+	background-color: #202020;
+	
+	
+
+}
+
+.monic-1{
+	width: 50%;
+	float: left;
+	height: 650px;
+	position: relative;
+	color: #83B81A;
+}
+.monic-2{
+	width: 50%;
+	float: left;
+	height: 650px;
+	position: relative;
+	
+}
+
+.backimg img{
+	width: 100%;
+	height: 650px;
+	position: absolute;
+	float: left;
+}
+
+.monic-1 .predator{
+	width: 100%;
+	height: 650px;
+	transition: 1s;
+}
+
+
+.monic-1 .predator:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+
+.predator img{
+	width: 500px ;
+	height: 450px;
+	margin: 90px 0px 0px 60px;
+}
+
+.monic-2 p{
+	font-size: 110px;
+	font-family: "Trebuchet MS", sans-serif ;
+	color: #83B81A;
+	margin: 0;
+	opacity: 0.7;
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+.monic-2 span{
+	font-size: 110px;
+	font-family: "Trebuchet MS", sans-serif ;
+	color: antiquewhite;
+	margin: 0;
+	font-weight: bold;
+	opacity: 0.7;
+	margin-top: 0px;
+}
+
+.monic-2 h1{
+	font-size: 80px;
+	font-family: "Trebuchet MS", sans-serif ;
+	color: antiquewhite;
+	opacity: 0.7;
+
+}
+
+
+.acer{
+	width: 100%;
+	height: 50px;
+	background-color: #202020;
+}
+
+
+
+
+.footer{
+	width: 100%;
+	height: 350px;
+	background-color: #202020;
+
+}
+
+
+
+.foot-1{
+	width: 30%;
+	height: 350px;
+	float: left;
+	margin-left: 20%;
+	color: grey;
+	
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12px;
+}
+.foot-2{
+	width: 30%;
+	height: 350px;
+	float: left;
+	margin-right: 20%;
+	color: grey;
+	
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12px;
+}
+
+
+
+
+
+
+hr{
+	width: 60%;
+	height: 0.2px;
+	background-color:  grey;
+	margin: 0px 20% 0px 20%;
+}
+
+.foot-2 img{
+	display: inline;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+
+.foot-1  p{
+	padding-top: 10px;
+}
+.foot-2 p{
+	padding-top: 10px;
+	margin-left: 30px;
+}
+ 
+
+ .end{
+ 	width: 100%;
+ 	height: 50px;
+ 	background-color: #202020;
+ }
