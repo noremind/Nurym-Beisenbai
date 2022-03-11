@@ -10310,7 +10310,7 @@ body{
     top: 0px;
     transform-origin: 820px 380.312px;
     width: 1640px;
-    background: rgba(0, 0, 0, 0) url("https://www.dyson.com.ru/medialibrary/Group/Haircare/Desktop/Dyson-Supersonic-2021/605C_Hero_Module_ROW2.ashx?mw=2400") no-repeat scroll 50% 100% / cover padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("0001.png") no-repeat scroll 50% 100% / cover padding-box border-box;
     font: 16px sans-serif;
 }/*#DIV_1018*/
 
@@ -13500,7 +13500,7 @@ body{
     top: 0px;
     transform-origin: 820px 369px;
     width: 1640px;
-    background: rgba(0, 0, 0, 0) url("https://www.dyson.com.ru/medialibrary/Group/Haircare/Desktop/Dyson-Supersonic-2021/605C_Overview_Engineered_Module_ROW_Desktop.ashx?mw=200") no-repeat scroll 50% 100% / cover padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("0005.jpg") no-repeat scroll 50% 100% / cover padding-box border-box;
     font: 16px sans-serif;
 }/*#DIV_1119*/
 
@@ -13983,7 +13983,7 @@ body{
 #DIV_1145, #DIV_1151, #DIV_1159, #DIV_1165, #DIV_1173, #DIV_1179 {
     block-size: 967.6px;
     box-sizing: border-box;
-    cursor: url("https://www.dyson.com.ru/V5Images/Carousel/grab.png") 8 8, move;
+    cursor: url("0005.jpg") 8 8, move;
     height: 967.6px;
     inline-size: 1640px;
     perspective-origin: 820px 483.8px;
@@ -14572,7 +14572,7 @@ body{
     top: 0px;
     transform-origin: 820px 483.8px;
     width: 1640px;
-    background: rgba(0, 0, 0, 0) url("https://www.dyson.com.ru/medialibrary/Group/Haircare/Desktop/Dyson-Supersonic-2021/605C_Attachments_Carousel_Diffuser.ashx?mw=2400") no-repeat scroll 50% 100% / cover padding-box border-box;
+    background: rgba(0, 0, 0, 0) url("0006.jpg") no-repeat scroll 50% 100% / cover padding-box border-box;
     font: 16px sans-serif;
 }/*#DIV_1161*/
 
@@ -16788,6 +16788,7 @@ body{
 }/*#I_1284:before, #I_1531:before, #I_1548:before*/
 
 #DIV_1285, #DIV_1288, #DIV_1294 {
+    display:none;
     block-size: 803.6px;
     box-sizing: border-box;
     height: 803.6px;
